@@ -4,97 +4,120 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>homework1</title>
+        <title>homework2</title>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- fonts end -->
+        <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
         <header>
-            <a href="/index.html"> <span>Web</span>Studio</a>
+            <a class="logo" href="/index.html">
+                <span class="logo-part">Web</span>Studio</a
+            >
             <nav>
                 <!-- Nawigacja do innych stron -->
                 <ul>
-                    <li><a href="/portfolio">Portfolio</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li>
+                        <a class="navigation" href="portfolio.html"
+                            >Portfolio</a
+                        >
+                    </li>
+                    <li><a class="navigation" href="/contact">Contact</a></li>
+                    <li><a class="navigation" href="/about">About</a></li>
                 </ul>
             </nav>
             <div>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </div>
-            <a href="tel:+48111111111"> +48 111 111 111 </a>
+                <a class="contact" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                >
 
-            <h1>Efektywne rozwiązania dla waszego biznesu</h1>
-            <button type="button">Zamów usługę</button>
+                <a class="contact" href="tel:+48111111111"> +48 111 111 111 </a>
+            </div>
         </header>
         <main>
-            <ul>
-                <li>
-                    <dl>
-                        <dt>Lorem ipsum</dt>
-                        <dd>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>Lorem ipsum</dt>
-                        <dd>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>Lorem ipsum</dt>
-                        <dd>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>Lorem ipsum</dt>
-                        <dd>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Nam vel arcu sem. Sed non sodales dui.
-                            Interdum et malesuada
-                        </dd>
-                    </dl>
-                </li>
-            </ul>
-            <h2>Czym się zajmujemy</h2>
-            <ul>
-                <li>
-                    <img
-                        src="images/pic1.jpg"
-                        width="370"
-                        height="294"
-                        alt="praca na tablecie"
-                    />
-                </li>
-                <li>
-                    <img
-                        src="images/pic2.jpg"
-                        width="370"
-                        height="294"
-                        alt="praca na laptopie"
-                    />
-                </li>
-                <li>
-                    <img
-                        src="images/pic3.jpg"
-                        width="370"
-                        height="294"
-                        alt="drugi obrazek z pracą na tablecie"
-                    />
-                </li>
-            </ul>
+            <h1 class="main-header">
+                Efektywne rozwiązania <br />
+                dla waszego biznesu
+            </h1>
+            <button type="button">Zamów usługę</button>
+
+            <div class="what-we-do">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>Lorem ipsum</dt>
+                            <dd>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Lorem ipsum</dt>
+                            <dd>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Lorem ipsum</dt>
+                            <dd>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>Lorem ipsum</dt>
+                            <dd>
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+                <h2>Czym się zajmujemy</h2>
+                <ul>
+                    <li>
+                        <img
+                            src="images/pic1.jpg"
+                            width="370"
+                            height="294"
+                            alt="praca na tablecie"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="images/pic2.jpg"
+                            width="370"
+                            height="294"
+                            alt="praca na laptopie"
+                        />
+                    </li>
+                    <li>
+                        <img
+                            src="images/pic3.jpg"
+                            width="370"
+                            height="294"
+                            alt="drugi obrazek z pracą na tablecie"
+                        />
+                    </li>
+                </ul>
+            </div>
             <h2>Nasz zespół</h2>
 
             <ul>

@@ -1,0 +1,71 @@
+:root {
+    --brand-color-white: rgba(255, 255, 255, 1);
+    --brand-color-gray: rgba(245, 244, 250, 1);
+    --brand-color-gray2: rgba(117, 117, 117, 1);
+    --brand-color-dark: rgba(47, 48, 58, 1);
+    --brand-color-black: rgba(0, 0, 0, 1);
+    --brand-color-black2: rgba(33, 33, 33, 1);
+    --brand-color-blue: rgba(33, 150, 243, 1);
+}
+body {
+    background-color: #e5e5e5;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background-color: var(--brand-color-white);
+}
+.main-header {
+    background-color: var(--brand-color-dark);
+    color: var(--brand-color-white);
+
+    font-style: black;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.logo {
+    color: var(--brand-color-black);
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo-part {
+    color: var(--brand-color-blue);
+}
+ul {
+    list-style-type: none;
+}
+.navigation {
+    color: var(--brand-color-black2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.navigation:hover {
+    color: var(--brand-color-blue);
+}
+.contact {
+    color: var(--brand-color-gray2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.contact:hover {
+    color: var(--brand-color-blue);
+}
+.what-we-do {
+    background-color: var(--brand-color-white);
+}
