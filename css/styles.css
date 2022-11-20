@@ -44,7 +44,7 @@ body {
 .list {
     list-style-type: none;
 }
-.navigation.link1 {
+.navigation-link {
     color: var(--brand-color-black2);
     font-style: normal;
     font-weight: 500;
@@ -52,10 +52,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.navigation.link1:hover {
+.navigation-link:hover {
     color: var(--brand-color-blue);
 }
-.contact {
+.contact-link {
     color: var(--brand-color-gray2);
     font-style: normal;
     font-weight: 500;
@@ -63,7 +63,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.contact.link1:hover {
+.contact-link:hover {
     color: var(--brand-color-blue);
 }
 .button-order {
