@@ -8,16 +8,13 @@
     --brand-color-blue: rgba(33, 150, 243, 1);
 }
 body {
-    background-color: #e5e5e5;
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-black2);
 }
 .portfolio-background {
     background-color: var(--brand-color-white);
 }
-.link1 {
-    text-decoration: none;
-}
+
 .top {
     background-color: var(--brand-color-white);
 }
@@ -89,7 +86,7 @@ body {
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
 }
-.buttons {
+.filter-button {
     font-family: 'Roboto', sans-serif;
     background-color: var(--brand-color-gray);
     font-style: normal;
@@ -102,13 +99,13 @@ body {
     border: none;
     cursor: pointer;
 }
-.buttons:hover,
-.buttons:active,
-.buttons:focus {
+.filter-button:hover,
+.filter-button:active,
+.filter-button:focus {
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
 }
-.lorem {
+.description-name {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -116,7 +113,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.lorem-text {
+.description-text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -126,7 +123,7 @@ body {
 
     color: var(--brand-color-gray2);
 }
-.what-we-do {
+.caption {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -135,13 +132,14 @@ body {
     letter-spacing: 0.03em;
 }
 
-.main-part {
+.description {
     background-color: var(--brand-color-white);
 }
-.employees {
+.team {
     text-align: center;
+    background-color: var(--brand-color-gray);
 }
-.john-doe {
+.team-name {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -150,7 +148,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
-.position {
+.team-job {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -193,7 +191,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--brand-color-white);
 }
-.end {
+.our-address-link {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -201,4 +199,5 @@ body {
 
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
