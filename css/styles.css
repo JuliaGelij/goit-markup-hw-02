@@ -51,6 +51,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .navigation-link:hover {
     color: var(--brand-color-blue);
@@ -62,6 +63,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contact-link:hover {
     color: var(--brand-color-blue);
