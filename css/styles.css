@@ -11,6 +11,18 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--brand-color-black2);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 .portfolio-background {
     background-color: var(--brand-color-white);
 }
@@ -43,6 +55,10 @@ body {
 }
 .list {
     list-style-type: none;
+}
+.navigation-list {
+    display: flex;
+    justify-content: space-between;
 }
 .navigation-link {
     color: var(--brand-color-black2);
